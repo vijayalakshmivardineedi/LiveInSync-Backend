@@ -1,0 +1,40 @@
+{
+  "name": "live-easy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "email-validator": "^2.0.4",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "jimp": "^0.22.12",
+    "jsonwebtoken": "^9.0.2",
+    "mailparser": "^3.7.1",
+    "mongoose": "^8.4.1",
+    "multer": "^1.4.5-lts.1",
+    "node-cache": "^5.1.2",
+    "node-imap": "^0.9.6",
+    "node-notifier": "^10.0.1",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^6.9.14",
+    "otp-generator": "^4.0.1",
+    "qrcode": "^1.5.3",
+    "qrcode-reader": "^1.0.4",
+    "server": "^1.0.39",
+    "shortid": "^2.2.16",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.4.0"
+  }
+}
